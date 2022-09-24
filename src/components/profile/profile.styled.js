@@ -23,7 +23,7 @@ export const Picture = styled.img`
   width: 200px;
   margin: 0px auto 8px;
 `;
-export const UserName = styled.p`
+export const Name = styled.p`
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 8px;

@@ -3,7 +3,7 @@ import {
   CardContainer,
   CardInfo,
   Picture,
-  UserName,
+  Name,
   UserInfo,
   StatisticsBox,
   StatColums,
@@ -25,7 +25,7 @@ export const Profile = ({ user }) => {
       <CardContainer>
         <CardInfo>
           <Picture src={avatar} alt={username} />
-          <UserName>{username}</UserName>
+          <Name>{username}</Name>
           <UserInfo>{tag}</UserInfo>
           <UserInfo>{location}</UserInfo>
         </CardInfo>

@@ -11,12 +11,7 @@ export const Transaction = ({ type, amount, currency }) => {
   );
 };
 Transaction.propTypes = {
-  Transaction: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      type: PropTypes.string.isRequired,
-      amount: PropTypes.string.isRequired,
-      currency: PropTypes.string.isRequired,
-    })
-  ),
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
 };
